@@ -13,7 +13,7 @@ import tn.esprit.spring.repository.SectionRepository;
 public class SectionServiceImpl implements ISectionService{
 
 	@Autowired
-	SectionRepository SR;
+	private SectionRepository SR;
 
 	@Override
 	public Section addSection(Section section) {

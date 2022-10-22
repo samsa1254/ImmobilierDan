@@ -25,4 +25,12 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "Id_Product")
 	private long id;
+	private float price;
+	private String type;
+	private String arrivingTime;
+	private String provider;
+	private String quantity;
+	private String name;
+	private String description;
+	private String option;
 }

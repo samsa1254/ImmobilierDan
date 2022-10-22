@@ -1,5 +1,11 @@
 package tn.esprit.spring.repository;
 
-public interface ProductRepository {
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import tn.esprit.spring.entities.Product;
+
+@Repository
+public interface ProductRepository extends CrudRepository<Product, Long> {
 
 }
